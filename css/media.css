@@ -1,0 +1,121 @@
+@media(max-width:991px){
+    .btn_join{
+        display: none;
+    }
+    .large_btn_join{
+        display: inherit;
+    }
+    .top_header{
+        display: none;
+    }
+}
+
+@media(max-width:767px) and (min-width:575px){  
+
+}
+@media(max-width:767px){
+    .iphone6{
+        display: none;
+    }
+    .instruction_item{
+        margin-bottom: 30px;
+    }
+    .service_item{
+        margin-bottom: 30px;
+    }
+    .chart_img img {
+        width: 50%;
+    }
+}
+
+@media(max-width:575px){
+    .instruction_item{
+        margin-bottom: 30px;
+    }
+    .service_item{
+        margin-bottom: 30px;
+    }
+   
+    .fearture_section h1{
+        font-size: 22px;
+        text-align: center;
+    }
+    .fearture_section span{
+        width: 80px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .box{
+        width: 40px;
+        height: 40px;
+        margin-left: 25px;
+    }
+    .fearture_section li{
+        margin-bottom: 30px;
+    }
+    .chart_img img {
+        width: 40%;
+    }
+    .safe .icon, .phone .icon, .wallet .icon, .expart .icon, .instant .icon, .recuring .icon {
+        width: 40px;
+        height: 40px;
+    }
+    .safe p, .phone p, .wallet p, .expart p, .instant p, .recuring p {
+        text-transform: capitalize;
+        font-size: 15px;
+        margin: 0;
+        
+    }
+    .safe {
+
+        top: 10%;
+        left: 20%;
+        transform: translate(-20%, -10%);
+    }
+    .phone {
+        top: 60%;
+        left: 21%;
+        transform: translate(-21%, -60%);
+    }
+    .wallet {
+        bottom: -10%;
+        left: 23%;
+        transform: translate(-23%, 0%);
+    }
+    .expart {
+
+        top: 10%;
+        left: 80%;
+        transform: translate(-80%, -10px);
+    }
+    .instant {
+        top: 60%;
+        left: 80%;
+        transform: translate(-80%, -60%);
+    }
+    .recuring {
+        bottom: -10%;
+        left: 80%;
+        transform: translate(-80%, 0%);
+    }
+    .expert {
+        margin-top: 50px;
+    }
+
+}
+@media(max-width:425px){
+    .li_content {
+        margin-left: 17px;
+    }
+}
+
+@media(max-width:375px){
+    .box{
+        width: 40px;
+        height: 40px;
+        margin-left: 0px;
+    }
+    .Couter_section p {
+        font-size: 10px;
+    }
+}
